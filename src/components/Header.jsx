@@ -13,7 +13,8 @@ const Header = () => {
     <>
       <nav className="flex items-center justify-between px-4 sm:px-8 md:px-16 py-4 md:py-7 bg-white shadow-sm">
         {/* Left: Logo */}
-        <div className="text-xl md:text-2xl font-bold text-[#5c0a0a]">
+        <div className="text-xl md:text-2xl font-bold text-[#5c0a0a] flex gap-2">
+          <img src="/care_me.png" className="lg:hidden"/>
           Care Me
         </div>
 
