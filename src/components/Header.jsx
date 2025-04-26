@@ -37,7 +37,7 @@ const Header = () => {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-[#5c0a0a] focus:outline-none"
+          className="lg:hidden text-[#5c0a0a] focus:outline-none"
           onClick={toggleMenu}
         >
           {isMenuOpen ? (
@@ -50,7 +50,7 @@ const Header = () => {
 
       {/* Mobile Menu - Dropdown */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white shadow-md">
+        <div className="lg:hidden bg-white shadow-md">
           <ul className="flex flex-col space-y-3 p-4 text-sm font-medium text-black">
             <li className="hover:text-[#5c0a0a] cursor-pointer py-2 border-b border-gray-100">Sell Online</li>
             <li className="hover:text-[#5c0a0a] cursor-pointer py-2 border-b border-gray-100">How it works</li>
