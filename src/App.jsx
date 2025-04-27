@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import StatsSection from "./components/StatsSection";
+import WhySuppliersLoveCareMe from "./components/WhySuppliersLoveCareMe";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
        <Header/>
        <HeroSection/>
        <StatsSection/>
+       <WhySuppliersLoveCareMe/>
      </>
   );
 }

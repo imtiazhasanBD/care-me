@@ -32,7 +32,7 @@ const HeroSection = () => {
           <input
             type="text"
             placeholder="Enter your mobile number"
-            className="flex-1 px-4 py-2 rounded-t-md sm:rounded-l-md sm:rounded-t-none border border-gray-300 focus:outline-none"
+            className="flex-1 bg-white px-4 py-1 rounded-t-md sm:rounded-l-md sm:rounded-t-none border border-gray-300 focus:outline-none"
           />
           <button className="bg-[#5c0a0a] text-white px-6 py-2 rounded-b-md sm:rounded-r-md sm:rounded-b-none text-sm font-semibold hover:bg-[#400707] transition">
             Start Selling
